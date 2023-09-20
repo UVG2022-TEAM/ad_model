@@ -27,7 +27,39 @@ http://localhost:8501
 
 6. To stop the container, Ctrl + C
 
+# Instructions to Use the Anomaly Detection App
 
+## Enter Data in the Left Sidebar
+
+### Test a Normal Value
+
+- t1: 18.6
+- t2: 24.0
+- t3: 23.8
+- t4: 25.4
+- h3: 72.2
+- h4: 83.9
+- f1: 39.1
+- f2: 37.8
+
+### Test an Anomaly
+
+- t1: 7.5
+- t2: 17.20
+- t3: 20.9
+- t4: 15.4
+- h3: 52.4
+- h4: 74.5
+- f1: 60.35
+- f2: 61.09
+
+## Click on "Add and Detect Anomaly".
+
+
+## Interpret Results:
+
+The app will display whether the data is an "anomaly" or "normal".
+If it's an anomaly, it will be highlighted on the chart.
 
 
 
